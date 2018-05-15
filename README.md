@@ -1,7 +1,3 @@
----
-title: "Zeit for Programming, LLC"
----
-
 # What Do We Do
 
  - [**Exposé Networks:**](https://www.nets.im/) Virtual Netwoking Solutions.
