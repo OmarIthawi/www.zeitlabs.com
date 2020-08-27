@@ -10,13 +10,23 @@
   {% seo title=false %}
   </head>
 
-  <body>
+  <body style="background-color: #c5d8e0">
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
+    <div id="header_wrap" class="outer" style="background: linear-gradient(to top, #c5d8e0, #f2f2f2);">
         <header class="inner">
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          <img src="logo.png" atl="{{ site.title | default: site.github.repository_name }}" style="
+              position: static;
+              max-width: 375px;
+              padding: 0;
+              margin: 0;
+              border: 0;
+              box-shadow: none;
+              -webkit-box-shadow: none;
+              -moz-box-shadow: none;
+              -o-box-shadow: none;
+          ">
+          <h2 id="project_tagline" style="color: #1b1f3a; background: none; text-shadow: #fff 0px 0px 10px;">{{ site.description | default: site.github.project_tagline }}</h2>
         </header>
     </div>
 
@@ -28,7 +38,7 @@
     </div>
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
+    <div id="footer_wrap" class="outer" style="background-color: #c5d8e0; color: #373737">
       <footer class="inner">
         <p class="copyright">© {{ site.title | default: site.github.repository_name }} 2020. All rights reserved.</p>
       </footer>
